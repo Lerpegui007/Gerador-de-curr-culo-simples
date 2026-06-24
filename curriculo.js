@@ -16,7 +16,7 @@ const habilidadesS = localStorage.getItem('habilidadesFor')
 
 const formacaoS = localStorage.getItem('formacaoFor')
 
-const experienciaS = localStorage.getItem('experiênciaFor')
+const experienciaS = localStorage.getItem('experienciaFor')
 
 
 if (!enderecoS || enderecoS.trim() === '') {
