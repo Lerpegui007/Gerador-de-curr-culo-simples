@@ -1,0 +1,63 @@
+@page{
+    size: A4;
+    margin: 0;
+}
+
+body{
+    margin:0;
+    padding:30px;
+    background:#bdbdbd;
+    display:flex;
+    justify-content:center;
+}
+
+.curriculo{
+    width:210mm;
+    min-height:297mm;
+    background:white;
+    padding:20mm;
+    box-sizing:border-box;
+    box-shadow:0 0 15px rgba(0,0,0,.2);
+}
+
+h1{
+    text-align:center;
+    color:#1f3c88;
+    margin-bottom:25px;
+}
+
+.contato{
+    margin-bottom:25px;
+}
+
+.contato p{
+    margin:6px 0;
+}
+
+h2{
+    color:#1f3c88;
+    border-bottom:2px solid #1f3c88;
+    padding-bottom:5px;
+    margin-top:25px;
+}
+
+p{
+    line-height:1.6;
+    text-align:justify;
+}
+
+@media print{
+
+    body{
+        background:white;
+        padding:0;
+    }
+
+    .curriculo{
+        width:210mm;
+        min-height:297mm;
+        margin:0;
+        box-shadow:none;
+    }
+
+}
