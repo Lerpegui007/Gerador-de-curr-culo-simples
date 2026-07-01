@@ -1,1 +1,0 @@
-# Gerador-de-curr-culo-simples
